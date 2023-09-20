@@ -36,20 +36,18 @@ header {
     padding: 0.5rem 0;
 }
 
-.logo {
-    font-weight: 800;
-}
-
 .logo img {
-    width: 30%;
+    width: 25%;
 }
 
 ul {
     display: flex;
-    gap: .6rem;
+    align-items: center;
+    justify-content: end;
     list-style-type: none;
     background-color: transparent;
     overflow: hidden;
+    width: 75%;
 }
 
 li a {
@@ -57,7 +55,7 @@ li a {
     padding: .3rem 1rem;
     color: #000;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: .7px;
     border-radius: 36px;
@@ -80,10 +78,6 @@ li a:hover {
 
 /* Nav */
 .main {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center; */
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(277px, 1fr));
     row-gap: 2rem;
@@ -262,7 +256,6 @@ li a:hover {
         padding: 0 1.6rem;
     }
     li a {
-        font-size: 1rem;
         padding: .3rem 0.5rem;
     }
 }
