@@ -1,6 +1,6 @@
 # over view
 
-<img src="https://github.com/characterMi/landing-page/blob/main/landing-page.png" />
+<img src="https://github.com/characterMi/landing-page/blob/main/landing-page.png" alt='landing-page pic' />
 
 # landing page
 
